@@ -1,0 +1,47 @@
+{{ if .Site.Data.homepage.gallery.enable }}
+{{ with .Site.Data.homepage.gallery }}
+<section id="slider">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+					<div class="title">
+						<h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ .title | markdownify }}</h1>
+					</div>
+
+
+<!--					<div class="gallery-slider">-->
+<!--						{{ range .sliderItem }}-->
+<!--						<a href="{{ .image | absURL }}" class="venobox" data-gall="sliderGallery"><img class="img-responsive"-->
+<!--								src="{{ .image | absURL }}" alt=""></a>-->
+<!--						{{ end }}-->
+<!--					</div>-->
+
+<!--					custom tiles-->
+					<div class="block">
+						{{ range .sliderItem }}
+							<div class="col-md-4" style="height: 320px;">
+								<div class="row">
+									<div class="col-md-4">
+										<img src="{{ .image | absURL }}" width="120px"/>
+									</div>
+									<div class="col-md-8">
+										<h2>
+											{{ .title}}
+										</h2>
+										<p>{{.description}}
+											<span id="dots">...</span>
+											<span id="more">{{.descriptionExtended}}</span></p>
+									</div>
+								</div>
+							</div>
+						{{ end }}
+					</div>
+
+				</div>
+			</div><!-- .col-md-12 close -->
+		</div><!-- .row close -->
+	</div><!-- .container close -->
+</section><!-- slider close -->
+{{end}}
+{{end}}

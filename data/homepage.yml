@@ -1,0 +1,89 @@
+################## Hero area ##################
+heroArea:
+  enable: true
+  bgImage: "images/header.jpg"
+  overlay: true
+
+################### Gallery ###################
+gallery:
+  enable: true
+  title: "Lab's domains"
+  sliderItem:
+    - image: "images/slider/slider-img-1.jpg"
+      title: "Fintech"
+      description: "Some long text here to show expand functionality. Some long text here to show expand functionality Some long text here to show expand functionality Some long text here to show expand functionality"
+      descriptionExtended: "yuueeye. Some long text here to show expand functionality Some long text here to show expand functionality Some long text here to show expand functionality"
+
+
+    - image: "images/slider/slider-img-2.jpg"
+      title: "Fashion tech"
+      description: "Some long text here to show expand functionality. Some long text here to show expand functionality Some long text here to show expand functionality Some long text here to show expand functionality"
+      descriptionExtended: "Some long text here to show expand functionality. Some long text here to show expand functionality Some long text here to show expand functionality Some long text here to show expand functionality"
+
+    - image: "images/slider/slider-img-3.jpg"
+      title: "Information tech"
+      description: "Some long text here to show expand functionality. Some long text here to show expand functionality Some long text here to show expand functionality Some long text here to show expand functionality"
+      descriptionExtended: "Some long text here to show expand functionality. Some long text here to show expand functionality Some long text here to show expand functionality Some long text here to show expand functionality"
+
+################ About #######################
+about:
+  enable: true
+  image: "images/cooker-img.png"
+  title: "One umbrella for Fintech Fashion-tech and Technology"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+
+################# Blog ######################
+blog:
+  enable: true
+  title: "Our Latest <span>Blog</span>"
+  bgImage: "images/blog/blog-bg.jpg"
+  overlay: true
+
+
+################# food Menu ################
+pricing:
+  enable: false
+  title: "Our Easy <span>PRICE</span>"
+  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+  subtitle: "FEATURED ON THE WEEK"
+  pricingItem:
+    - title: "Pancakes n' Such Titas"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+      price: "$ 125.00"
+
+    - title: "Caesar Salad"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+      price: "$ 100.00"
+
+    - title: "Steak with a Garlic and Parsley Risotto"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+      price: "$ 20.00"
+
+    - title: "Meat of Skewers"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+      price: "$ 45.00"
+
+    - title: "Pancakes n' Such"
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+      price: "$ 25.00"
+
+
+################ Contact #######################
+contact:
+  enable: true
+  title: "Let's <span> Contact Us </span>"
+  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  formAction: "#" #contact form works with formspree.io
+
+################### Subscription ################
+subscription:
+  enable: true
+  bgImage: "images/subscribe-bg.jpg"
+  title: "SUBSCRIBE to our <span>NEWSLETTER</span>"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  #Mailchimp subscription configaration
+  formAction: "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName: "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay: true
+
+
